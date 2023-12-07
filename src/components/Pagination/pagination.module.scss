@@ -1,0 +1,28 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: fit-content;
+	width: 360px;
+}
+
+.btn {
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	transition: background-color 0.3s ease-out;
+	text-decoration: none;
+
+	border: none;
+	outline: none;
+
+	&.active__item,
+	&:hover {
+		background-color: orange;
+		color: #ffffff;
+		cursor: pointer;
+	}
+}

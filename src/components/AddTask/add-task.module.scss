@@ -1,0 +1,59 @@
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	gap: 0 10px;
+}
+
+.form__item {
+	display: flex;
+	gap: 10px;
+
+	font-size: 18px;
+}
+
+.input__item {
+	position: relative;
+
+	font-family: Oswald;
+	font-weight: 400;
+
+	padding: 5px;
+	outline: none;
+	border: none;
+	width: 350px;
+
+	border-radius: 5px;
+}
+
+.error {
+	position: absolute;
+
+	left: 0;
+	bottom: 0;
+}
+
+.btn {
+	font-family: Oswald;
+
+	padding: 3px 8px;
+	border-radius: 5px;
+	height: 100%;
+	border: none;
+
+	color: orange;
+	letter-spacing: 1.5px;
+	font-size: 18px;
+	background-color: #6e6e6e;
+	text-transform: uppercase;
+
+	transition: all 0.1s linear;
+
+	cursor: pointer;
+
+	&:hover {
+		background-color: #e2e2e2;
+		color: orangered;
+	}
+}
